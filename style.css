@@ -1,0 +1,528 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #F4F8FF;
+	font-family: sans-serif;
+}
+
+.nav-top{
+	background-color: #fff;
+}
+.submenu:hover{
+	text-decoration: underline;
+}
+.menu-item {
+	background-color:  #5492FF;
+	color: #fff;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.has-search .form-control-feedback {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+.order-area {
+    padding: 20px 20px 5px 20px;
+}
+.pertanyaan{
+	background: #fff;
+}
+
+
+.tengah{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.center-container{
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar .navbar-collapse .search {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 10px;
+}
+
+.search input{
+	border-radius: 50px 0 0 50px
+}
+.search button{
+	background-color: #5492FF; 
+	border-radius: 0 50px 50px 0;
+}
+
+text-center1 {
+    text-align: center!important;
+}
+.pb-5, .py-5 {
+    padding-bottom: 3rem!important;
+}
+.pt-5, .py-5 {
+    padding-top: 3rem!important;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.subscribe input{
+	border-radius: 50px 0 0 50px
+}
+.subscribe button{
+	background-color: #5492FF;
+	border-color: #fff;
+	border-radius: 0 50px 50px 0;
+}
+
+.search button{
+	background-color: #5492FF; 
+	border-radius: 0 50px 50px 0;
+}
+
+button {
+	border-radius: 50%;
+	background-color: #fff;
+}
+.navbar-toggler {
+	border:none;
+}
+
+.navbar li{
+	padding: 0 10px;
+}
+.navbar li a{
+	color: #fff;
+	font-weight: 600;
+}
+.modal-header{
+	background-color:#5492FF; 
+}
+
+.carousel-inner {
+	width: 	100%;
+	max-height: 800px !important;
+}
+
+.title-box {
+	background-color: #5492FF  ;
+	color: #fff;
+	width: 200px;
+	padding: 4px 10px;
+	height: 40px;
+	margin-bottom: 30px;
+	display: flex;
+}
+.title-box h2{
+	font-size: 20px;
+}
+.title-box::after{
+	content: '';
+	border-top: 40px solid #5492FF;
+	border-right: 50px solid transparent;
+	position: absolute;
+	display: flex;
+	margin-top: -4px;
+	margin-left: 190px;
+}
+
+.card p {
+	margin-top: -10px;
+	margin-bottom: 1px;
+}
+.row .card:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	transform:scale(1.02);
+}
+.card {
+	text-align: center;
+	font-family: arial;
+}
+.title-card{
+	margin-bottom: 10px;
+}
+.product{
+	text-align: center;
+	margin-bottom: 10px;
+	color: orange;
+	font-size: 10px;
+}
+.subscribe{
+	background-color: #5492FF;
+	padding: 20px;
+}
+.icon td{
+	padding: 10px;
+}
+
+.footer .icon img{
+	height: 24px;
+}
+.footer h5 {
+	color: #fff;
+}
+.footer a {
+	font-size: 14px;
+	color: #fff;
+}
+.copyright{
+	background-color: #8CB0FF;
+	padding-bottom:5px;
+}
+.copyright hr {
+	margin-top: 10px;
+	background-color: #5492FF;
+}
+.follow table td{
+	color: #fff;
+}
+
+.single-produk {
+	margin-bottom: 5px;
+}
+
+.single-produk p {
+	font-size: 20px;
+}
+
+.single-produk i {
+	
+	color: orange;
+}
+.single-produk th td{
+	padding: 15px;
+	border:1px;
+}
+#produk-slider{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.user i{
+	font-size: 50px;
+}
+.user p{
+	text-align: center;
+}
+
+.container-404{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-top: 140px;
+	margin-left: -240px;
+	text-align: center;
+	padding:40px;
+	display: table;
+}
+.p-404 {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.pesan input{
+	border: 1px solid #ccc;
+	font-weight: bold;
+	height: 33px;
+	border-radius: 30px;
+	text-align: center;
+	width: 50px;
+}
+.cart{
+	background: #5492FF;
+	color: #fff;
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.review i{
+	color: orange;
+}
+
+.title-box-filter {
+	background-color: #5492FF  ;
+	color: #fff;
+	width: 180px;
+	padding: 4px 10px;
+	height: 40px;
+	margin-bottom: 30px;
+	display: flex;
+}
+.title-box-filter::after{
+	content: '';
+	border-top: 40px solid #5492FF;
+	border-right: 50px solid transparent;
+	position: absolute;
+	display: flex;
+	margin-top: -4px;
+	margin-left: 170px;
+}
+
+.jejak {
+	background-color:#F4F8FF;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+	content: ">";
+}
+
+.row .judul{
+	font-size:20px;
+	font-weight: bold;
+	color: #5492FF;
+}
+.kontak .row {
+	background-color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 1px;
+}
+
+.tengah{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.button{
+	margin-bottom: 10px;
+	margin-top: 40px;
+}
+.pertanyaan{
+	margin-bottom: 10px;
+}
+.isi-kontak {
+	justify-content:  center;
+	font-size: 15px;
+	display: flex;
+}
+.pertanyaan .row {
+	background-color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	justify-content: center;
+}
+.pertanyaan-input  label{
+	font-size: 12px;
+}
+
+.tentang_kami {
+	margin-top: 10px;
+	padding: 0;
+}
+
+.tentang_kami .deskripsi {
+	font-size: 15px;
+	text-align: justify;
+}
+
+.box {
+	transform: translate(10%, 10%);
+	height: 400px;
+	width: 300px;
+	border-radius: 15px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.imgBx{
+	top: 0;
+	left: 0;
+	width : 100%;
+	height: 100%;
+	transition: 0.5s;
+	z-index: 2;
+	background: #000;
+}
+
+.imgBx img{
+	transition: 0.5s;
+}
+.box:hover .imgBx img{
+	opacity: 0.5;
+}
+.social-icon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+.social-icon li{
+	list-style: none;
+}
+.social-icon li a{
+	position: relative;
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	background : #fff;
+	color: #262626;
+	margin: 0 5px;
+	border-radius: 50%;
+	transition: 0.5s;
+	transform: translateY(200px);
+	opacity: 0;
+}
+.box:hover .social-icon li a{
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.social-icon li a .fab{
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.nama {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	z-index: 4;
+	width: 100%;
+	height: 80px;
+	box-sizing: border-box;
+}
+
+.nama h2{
+	margin: 10px 0 0;
+	padding: 0;
+	text-align: center;
+	font-size: 20px;
+}
+.nama h2 span{
+	color: #bbb;
+	font-size: 12px;	
+}
+
+.nav-bar-admin {
+	background-color: #5492FF;
+}
+
+.sub-admin .kiri{
+	background-color: #E1DDDD;
+}
+.sub-admin .kanan{
+	background-color: #fff;
+
+}
+.sub-admin .kanan label{
+
+}
+.sub-admin ul {
+	margin-left: -10px;
+	margin-top: 20px; 
+
+}
+
+.sub-admin ul li{
+	list-style: none;
+	margin-bottom: 20px;
+
+}
+
+.sub-admin ul li a{
+	color: #000;
+}
+
+.kanan .breadcrumbs {
+    background-color: #E1DDDD;
+    display: inline-block;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+	border-radius: 5px;
+     }
+.kanan .breadcrumbs .col-lg-8 .page-header {
+    float: left; }
+.kanan .page-header {
+    min-height: 50px;
+    margin: 0;
+    padding: 0;
+    background: #E1DDDD;
+    border-bottom: 0; }
+.kanan .page-header h1 {
+      font-size: 18px;
+      padding: 15px 0; }
+.kanan .page-header .breadcrumb {
+      margin: 0;
+      padding: 13.5px 0;
+      background: #E1DDDD;
+      text-transform: capitalize; }
+.kanan .page-header .breadcrumb > li + li:before {
+      padding: 0 5px;
+      color: #ccc;
+      content: "/\00a0"; }
+
+      div[class*="col-"] {
+    float: left;
+}
+
+
+.card h4 {
+    font-size:17.6px;
+    font-size: 1.1rem; 
+}
+
+.bg-flat-color-1 {
+  background: #5492FF; 
+}
+
+.kanan .col-sm-6 .card {
+	height: 100px;
+}
+
+.kanan .col-sm-6 .card p {
+	margin-top: 5px;
+}

@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Tentang Kami</title>
+  </head>
+  <body>
+    <section id="nav-bar">
+      <nav class="nav-top navbar navbar-expand-lg navbar-light mx-auto">
+        <div class=" logo container justify-content-center my-2">
+          <a class="navbar-brand font-weight-bold" href="index.html">
+            <img src="IMG/icon.png" width="30" height="30" class="align-top"> NYEWA-IN 
+          </a>
+        </div>
+        <div class="nav-top container justify-content-center">
+          <div class="search">
+            <div class="input-group md-form form-sm form-2 pl-0 my-2">
+              <input class="form-control my-0 py-1 " type="form-control" type="text" placeholder="Cari baju 'Kebaya'" name="search">
+              <button class="btn btn-secondary" type="button">
+                  <a class="fa fa-search text-white" href="Koleksi.html"></a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="nav-top container justify-content-center my-2">
+          <div class="icon">
+            <a href="testkeranjang.html" class="nav-item nav-link fas fa-cart-plus"></a>  
+            <a href="#" class="nav-item nav-link fas fa-map-marker-alt my-auto mr-2"></a>
+            <button type="button" class="btn btn-success btn-light btn-sm mr-1 nav-item" data-toggle="modal" data-target="#loginModal">Masuk</button>
+            <button type="button" class="btn btn-success btn-primary btn-sm mr-3 nav-item" data-toggle="modal" data-target="#Daftar" >Daftar</button>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="menu-item navbar navbar-expand-lg">
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class=" nav-item">
+              <a class="submenu nav-link" href="Koleksi.html">KOLEKSI TERBARU </a>
+            </li>
+            <li class="nav-item">
+              <a class="submenu nav-link" href="#">PRIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="submenu nav-link" href="#">WANITA</a>
+            </li>
+            <li class="nav-item">
+              <a class="submenu nav-link" href="#">ANAK</a>
+            </li>
+            <li class="nav-item">
+              <a class="submenu nav-link" href="#" >PASANGAN</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <!--POP UP LOGIN-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="loginModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-white">
+            <h5 class="modal-title">Masuk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>        
+          <div class="modal-body">
+            <div class="form-group">
+              <input type="text" name="username" class="form-control" placeholder="Email/Username">
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" class="form-control" placeholder="Password">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn text-danger text-right" data-toggle="modal" data-target="#Daftar">Belum punya akun ? Daftar sekarang</button>
+            <button type="button" class="btn btn-primary ml-auto">Masuk</button>
+          </div>
+          <h6 class="mx-auto mt-2">Atau daftar dengan</h6>
+          <div class="row my-3">
+            <div class="col-md-6 ml-auto text-center">
+              <button id="google" type="button" class="btn btn-outline-black"><i class="fab fa-google mr-2" style="margin-left:"></i>Google</button>
+            </div>
+            <div class="col-md-6 text-center">
+              <button type="button" class="btn btn-outline-black"><i class="fab fa-facebook-square mr-2" style="margin-right:"></i>Facebook</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--POP UP REGISTER-->    
+    <div class="modal fade" tabindex="-1" role="dialog" id="Daftar">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-white">
+            <h5 class="modal-title">Form Pendaftaran</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" name="email" placeholder="Email" aria-label="email" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button type="button" class="btn btn-primary">Kirim Kode</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group" >
+              <input type="text" name="kode" class="form-control" placeholder="Kode Verifikasi">
+            </div>
+            <div class="form-group">
+              <input type="text" name="nama" class="form-control" placeholder="Nama User">
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" class="form-control" placeholder="Kata Sandi">
+            </div>
+            <div class="form-group">
+              <input type="password" name="konpassword" class="form-control" placeholder="Konfirmasi Kata Sandi">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" data-dismiss="modal">Nanti saja</button>
+            <button type="button" class="btn btn-primary">Daftar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <section id="tentang_kami"> 
+      <div class="container"  style="background-color: #fff; padding-top: 10px; margin-top: 10px; height: 1000px;" >
+      	<div class="tentang_kami row justify-content-center" >
+          <div class="col-lg-12 col-md-12 col-sm-6 text-center">
+            <label class="judul">LACAK PENGIRIMAN</label>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-6 justify-content-center">
+            <p class="deskripsi text-center" style="font-size: 12px;">Untuk melacak pesanan Anda, masukkan ID Pesanan Anda di kotak di bawah ini dan tekan tombol "Lacak". Ini diberikan kepada Anda pada tanda terima dan dalam email konfirmasi yang seharusnya Anda terima.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="form-group" >
+              <label>ID Pesanan</label>
+              <input type="text" name="kode" class="form-control" placeholder="Temukan di konfirmasi email Anda">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="form-group" >
+              <label>Email</label>
+              <input type="text" name="kode" class="form-control" placeholder="Email yang digunakan untuk checkout">
+            </div>
+          </div>
+          <div class="button col-lg-12 text-center mb-3">
+            <input class="btn btn-primary btn-sm text-center" type="submit" value="Lacak" >
+          </div>
+        </div>   
+      </div>
+    </section>
+
+    <section class="subscribe">
+     <div class="container">
+        <div class="row ">
+          <div class="col-lg-8 col-sm-5 mx-0 d-flex justify-content-end">
+            <p class="mr-5" style="color:#fff; font-size: 25px;"><b>Daftarkan Email Anda untuk berlangganan</b></p>
+          </div>
+          <div class="col-lg-4 col-sm-3 d-flex justify-content-start">
+            <form class="form-inline my-lg-0">
+                <input class="form-control mr-0" type="subscribe" placeholder="Subscribe" aria-label="Email" style="border-radius: 50px 0 0 50px;">
+                <button class="btn" type="button" style="border-color: #fff; border-radius: 0 50px 50px 0;">
+                      <a class="fas fa-paper-plane text-white" href="#"></a>
+                </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--FOOTER-->
+    <section class="footer "style="background-color: #8CB0FF"> 
+      <div class="container" >
+        <div class="row" style="padding-top:10px">
+          <div class="col-md-3">
+            <h5>Metode Pembayaran</h5>
+            <div class="icon">          
+                <table>
+                  <tr>
+                    <td>
+                      <img src="IMG/bca.png">
+                    </td>
+                    <td>
+                      <img src="IMG/bni.png">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="IMG/bri.png">
+                    </td>
+                    <td>
+                      <img src="IMG/mandiri.png">
+                    </td>
+                  </tr>
+                </table>
+            </div>    
+          </div>
+          <div class="col-md-3">
+            <h5>Layanan Pelanggan</h5>
+            <a href="Kontak_kami.html">Kontak Kami</a><br>
+            <a href="tracking-order.html">Lacak Pesanan Pembeli</a><br>
+            <a href="tracking-order.html">Lacak Pengiriman Penjual</a>
+          </div>
+          <div class="follow col-md-3">
+            <h5>Ikuti Kami</h5>
+            <table style="padding: 3px; ">
+              <tr>
+                <td><a href="https://www.Instagram.com"><i class="fab fa-instagram"></i></a></td>
+                <td><a href="https://www.Instagram.com">Instagram</a></td>
+              </tr>
+              <tr>
+                <td><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></td>
+                <td><a href="https://www.twitter.com">Twitter</a></td>
+              </tr>
+              <tr>
+                <td><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></td>
+                <td><a href="https://www.facebook.com">Facebook</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-md-3">
+            <h5>Informasi</h5>
+            <a href="tentangkami.html">Tentang Kami</a><br>   
+          </div>
+        </div>
+      </div>
+      <div class="copyright justify-content-center">
+        <hr>
+        <p style="color: #fff; text-align: center">Copyright 2019 <strong> @NYEWAIN</strong></p>
+      </div>
+    </section>
+<!--FINISH FOOTER-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

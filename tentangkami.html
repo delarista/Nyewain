@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="animated.css">
+
+    <title>Tentang Kami</title>
+  </head>
+  <body>
+    <section id="nav-bar">
+      <nav class="nav-top navbar navbar-expand-lg navbar-light mx-auto">
+        <div class=" logo container justify-content-center my-2">
+          <a class="navbar-brand font-weight-bold" href="index.html">
+            <img src="IMG/icon.png" width="30" height="30" class="align-top"> NYEWA-IN 
+          </a>
+        </div>
+        <div class="nav-top container justify-content-center">
+          <div class="search">
+            <div class="input-group md-form form-sm form-2 pl-0 my-2">
+              <input class="form-control my-0 py-1 " type="form-control" type="text" placeholder="Cari baju 'Kebaya'" name="search">
+              <button class="btn btn-secondary" type="button">
+                  <a class="fa fa-search text-white" href="Koleksi.html"></a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="nav-top container justify-content-center my-2">
+          <div class="icon">
+            <a href="testkeranjang.html" class="nav-item nav-link fas fa-cart-plus"></a>  
+            <a href="#" class="nav-item nav-link fas fa-map-marker-alt my-auto mr-2"></a>
+            <button type="button" class="btn btn-success btn-light btn-sm mr-1 nav-item" data-toggle="modal" data-target="#loginModal">Masuk</button>
+            <button type="button" class="btn btn-success btn-primary btn-sm mr-3 nav-item" data-toggle="modal" data-target="#Daftar" >Daftar</button>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="menu-item navbar navbar-expand-lg">
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class=" nav-item">
+              <a class="submenu nav-link" href="Koleksi.html">KOLEKSI TERBARU </a>
+            </li>
+            <li class="nav-item">
+              <a class="submenu nav-link" href="#">PRIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="submenu nav-link" href="#">WANITA</a>
+            </li>
+            <li class="nav-item">
+              <a class="submenu nav-link" href="#">ANAK</a>
+            </li>
+            <li class="nav-item">
+              <a class="submenu nav-link" href="#" >PASANGAN</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <!--POP UP LOGIN-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="loginModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-white">
+            <h5 class="modal-title">Masuk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>        
+          <div class="modal-body">
+            <div class="form-group">
+              <input type="text" name="username" class="form-control" placeholder="Email/Username">
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" class="form-control" placeholder="Password">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn text-danger text-right" data-toggle="modal" data-target="#Daftar">Belum punya akun ? Daftar sekarang</button>
+            <button type="button" class="btn btn-primary ml-auto">Masuk</button>
+          </div>
+          <h6 class="mx-auto mt-2">Atau daftar dengan</h6>
+          <div class="row my-3">
+            <div class="col-md-6 ml-auto text-center">
+              <button id="google" type="button" class="btn btn-outline-black"><i class="fab fa-google mr-2" style="margin-left:"></i>Google</button>
+            </div>
+            <div class="col-md-6 text-center">
+              <button type="button" class="btn btn-outline-black"><i class="fab fa-facebook-square mr-2" style="margin-right:"></i>Facebook</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--POP UP REGISTER-->    
+    <div class="modal fade" tabindex="-1" role="dialog" id="Daftar">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-white">
+            <h5 class="modal-title">Form Pendaftaran</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" name="email" placeholder="Email" aria-label="email" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button type="button" class="btn btn-primary">Kirim Kode</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group" >
+              <input type="text" name="kode" class="form-control" placeholder="Kode Verifikasi">
+            </div>
+            <div class="form-group">
+              <input type="text" name="nama" class="form-control" placeholder="Nama User">
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" class="form-control" placeholder="Kata Sandi">
+            </div>
+            <div class="form-group">
+              <input type="password" name="konpassword" class="form-control" placeholder="Konfirmasi Kata Sandi">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" data-dismiss="modal">Nanti saja</button>
+            <button type="button" class="btn btn-primary">Daftar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <section id="tentang_kami"> 
+      <div class="container" >
+      	<div class="tentang_kami row" style="background-color: #fff; padding-top: 10px;" >
+          <div class="col-lg-12 col-md-12 col-sm-6 text-center">
+            <label class="judul">TENTANG KAMI</label>
+          </div>
+          <div class="col-lg-12 col-md-4 col-sm-6">
+            <div class="deskripsi container">
+            	<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia odio alias amet veritatis ullam ipsa eos et sequi minima sit odit, quam iusto modi, dignissimos! Ad sed delectus quo obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In corporis vel velit commodi illum maiores numquam laborum earum eveniet excepturi, at atque blanditiis doloremque delectus fuga, quasi soluta, illo non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia odio alias amet veritatis ullam ipsa eos et sequi minima sit odit, quam iusto modi, dignissimos! Ad sed delectus quo obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In corporis vel velit commodi illum maiores numquam laborum earum eveniet excepturi, at atque blanditiis doloremque delectus fuga, quasi soluta, illo non."</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="container">
+      	<div class="tujuan row" style="background-color: #fff; margin-top: 20px;">
+      		<div class="col-lg-6 col-sm-3">
+      			<img src="IMG/profil/tim.jpg">
+      		</div>
+      		<div class="col-lg-5 col-md-4 col-sm-6" >
+      			<label class="judul">Tujuan</label>
+      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi nihil veritatis at neque atque sit vero necessitatibus quaerat, porro voluptate in vel recusandae reprehenderit soluta ipsam, aperiam omnis, maxime beatae.</p>
+      		</div>
+      	</div>
+      </div>
+
+      <div class="container-fluid animated bounceInUp">
+      	<div class="row justify-content-center" style="margin-top:20px; margin-bottom: -30px;">
+      		<label class="judul">JUMPA TIM NYEWA-IN</label>
+      	</div>
+      	<div class="row">
+        	<div class="col-lg-3">
+        		<div class="box">
+		        	<div class="imgBx">
+		        		<img src="IMG/profil/zamzam.jpg">
+		        	</div>	
+		        	<ul class="social-icon">
+		        		<li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+		        		<li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+		        		<li><a href="https://www.Instagram.com/hibatullahzamzam"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+		        	</ul>
+		        	<div class="nama">
+		        		<h2>Hibatullah Zamzam<br><span>4611418054</span></h2>
+		        	</div>
+	        	</div>	
+        	</div>
+        	<div class="col-lg-3">
+        		<div class="box">
+		        	<div class="imgBx">
+		        		<img src="IMG/profil/fadil.jpg">
+		        	</div>	
+		        	<ul class="social-icon">
+		        		<li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+		        		<li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+		        		<li><a href="https://www.Instagram.com/fadilmardnsyh"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+		        	</ul>
+		        	<div class="nama">
+		        		<h2>M Fadil<br><span>4611418061</span></h2>
+		        	</div>
+	        	</div>	
+        	</div>
+        	<div class="col-lg-3">
+        		<div class="box">
+		        	<div class="imgBx">
+		        		<img src="IMG/profil/dela.jpg">
+		        	</div>	
+		        	<ul class="social-icon">
+		        		<li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+		        		<li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+		        		<li><a href="https://www.Instagram.com/delarista_"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+		        	</ul>
+		        	<div class="nama">
+		        		<h2>Dela Rista<br><span>4611418068</span></h2>
+		        	</div>
+	        	</div>	
+        	</div>
+        	<div class="col-lg-3">
+        		<div class="box">
+		        	<div class="imgBx">
+		        		<img src="IMG/profil/yoga.jpg">
+		        	</div>	
+		        	<ul class="social-icon">
+		        		<li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+		        		<li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+		        		<li><a href="https://www.Instagram.com/alrifkyprayoga"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+		        	</ul>
+		        	<div class="nama">
+		        		<h2>Alrifky Prayoga<br><span>4611418070</span></h2>
+		        	</div>
+	        	</div>	
+        	</div>   	
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe"  style="margin-top: 80px;">
+     <div class="container">
+        <div class="row ">
+          <div class="col-lg-8 col-sm-3 d-flex justify-content-end">
+            <p class="mr-5" style="color:#fff; font-size: 25px;"><b>Daftarkan Email Anda untuk berlangganan</b></p>
+          </div>
+          <div class="col-lg-4 col-sm-3 d-flex justify-content-start">
+            <form class="form-inline my-lg-0">
+                <input class="form-control mr-sm-2" type="subscribe" placeholder="Subscribe" aria-label="Email">
+                <button class="btn" type="button" style="border-color: #fff; border-radius: 5px;">
+                      <a class="fas fa-paper-plane text-white" href="#"></a>
+                </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--FOOTER-->
+    <section class="footer "style="background-color: #8CB0FF"> 
+      <div class="container" >
+        <div class="row" style="padding-top:10px">
+          <div class="col-md-3">
+            <h5>Metode Pembayaran</h5>
+            <div class="icon">          
+                <table>
+                  <tr>
+                    <td>
+                      <img src="IMG/bca.png">
+                    </td>
+                    <td>
+                      <img src="IMG/bni.png">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="IMG/bri.png">
+                    </td>
+                    <td>
+                      <img src="IMG/mandiri.png">
+                    </td>
+                  </tr>
+                </table>
+            </div>    
+          </div>
+          <div class="col-md-3">
+            <h5>Layanan Pelanggan</h5>
+            <a href="#" >Kontak Kami</a><br>
+            <a href="#" >Konfirmasi Pembayaran</a><br>
+            <a href="#" >Bantuan</a>
+          </div>
+          <div class="follow col-md-3">
+            <h5>Ikuti Kami</h5>
+            <table style="padding: 3px; ">
+              <tr>
+                <td><a href="#"><i class="fab fa-instagram"></i></td>
+                <td>Instagram</td>
+              </tr>
+              <tr>
+                <a href="#"><td><i class="fab fa-twitter"></i></td>
+                <td>Twitter</td></a>
+              </tr>
+              <tr>
+                <td><a href="#"><i class="fab fa-facebook-f"></i></td>
+                <td>Facebook</td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-md-3">
+            <h5>Informasi</h5>
+            <a href="tentangkami.html">Tentang Kami</a><br>   
+          </div>
+        </div>
+      </div>
+      <div class="copyright justify-content-center">
+        <hr>
+        <p style="color: #fff; text-align: center">Copyright 2019 <strong> @NYEWAIN</strong></p>
+      </div>
+    </section>
+<!--FINISH FOOTER-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
